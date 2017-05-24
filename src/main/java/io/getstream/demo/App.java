@@ -1,4 +1,4 @@
-package io.getstream.streamdemojavaanalytics;
+package io.getstream.demo;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

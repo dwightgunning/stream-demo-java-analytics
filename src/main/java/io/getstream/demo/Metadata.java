@@ -1,4 +1,4 @@
-package io.getstream.streamdemojavaanalytics;
+package io.getstream.demo;
 
 import java.util.Arrays;
 import java.util.List;

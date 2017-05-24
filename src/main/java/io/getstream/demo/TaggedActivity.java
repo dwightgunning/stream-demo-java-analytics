@@ -1,4 +1,4 @@
-package io.getstream.streamdemojavaanalytics;
+package io.getstream.demo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.base.MoreObjects;
