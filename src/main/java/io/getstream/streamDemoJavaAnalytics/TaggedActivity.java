@@ -1,17 +1,13 @@
-package io.getstream.streamDemoJavaAnalytics;
+package io.getstream.streamdemojavaanalytics;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.common.base.MoreObjects;
+import io.getstream.client.model.activities.BaseActivity;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.google.common.base.MoreObjects;
-
-import io.getstream.client.model.activities.BaseActivity;
-
-class TaggedActivity extends BaseActivity {
+public class TaggedActivity extends BaseActivity {
 
   public TaggedActivity() {
     tags = Arrays.asList();
